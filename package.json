@@ -1,0 +1,14 @@
+{
+  "name": "ghost-logger",
+  "version": "1.0.0",
+  "description": "A ghost logger wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ghost Creative",
+  "license": "ISC",
+  "dependencies": {
+    "le_node": "^1.7.0"
+  }
+}
