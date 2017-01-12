@@ -27,7 +27,6 @@ logger.info("it's lit", { data: myData });
   * **`token`** [STRING] your logentries api token
   * **`console`** [BOOLEAN] if set to true, will also log to the console
   
-# Example config file
 
 ## Example config file
 
