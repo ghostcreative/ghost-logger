@@ -1,6 +1,6 @@
 {
   "name": "ghost-logger",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A ghost logger wrapper",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,13 @@
   "author": "Ghost Creative",
   "license": "ISC",
   "dependencies": {
-    "le_node": "^1.7.0"
+    "le_node": "^1.7.0",
+    "lodash": "^4.17.4",
+    "newrelic-winston": "0.0.1",
+    "winston": "^2.3.1",
+    "winston-loggly": "^1.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
