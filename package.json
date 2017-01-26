@@ -1,6 +1,6 @@
 {
   "name": "ghost-logger",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A ghost logger wrapper",
   "main": "index.js",
   "scripts": {
