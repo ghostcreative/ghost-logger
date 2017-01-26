@@ -6,7 +6,7 @@
 
 ## Overview
 
-This module is a generic logger for logentries. Provides a simple `console.log(msg, data)` like interface to log in your app with. 
+This module is a generic logger for winston console, logentries, loggly, and new relic. Provides a simple `console.LEVEL` like interface to log in your app with. 
 
 Configuration information can be found below.
 
@@ -22,16 +22,23 @@ logger.info("it's lit", { data: myData });
 # Config
 
 
-* **`logentries`**: Currently only endpoint logging API supported, New Relic and others to come.
+
+* **`console`**:
+ 
+* **`loggly`**: 
+
+* **`logentries`**: 
   * **`enabled`** [BOOLEAN] will only log if set to true
   * **`token`** [STRING] your logentries api token
   * **`console`** [BOOLEAN] if set to true, will also log to the console
   
+* **`newrelic`**: 
 
 ## Example config file
 
 ```json
 {
+  "enabled": true,
   "logentries": {
     "enabled": true,
     "token": "-- YOUR LOGENTRIES TOKEN --",
