@@ -42,8 +42,8 @@ logger.info("it's lit", { data: myData });
   "logentries": {
     "enabled": true,
     "token": "-- YOUR LOGENTRIES TOKEN --",
-    "console": true,
-    "blacklist": ["password","credit_card"]
-  }
+    "console": true
+  },
+  "blacklist": ["password","credit_card"]
 }
 ```
