@@ -21,7 +21,7 @@ logger.info("it's lit", { data: myData });
 
 # Config
 
-
+* **`blacklist`** [ARRAY] Blacklisted Attributes to remove from logs
 
 * **`console`**:
  
@@ -42,7 +42,8 @@ logger.info("it's lit", { data: myData });
   "logentries": {
     "enabled": true,
     "token": "-- YOUR LOGENTRIES TOKEN --",
-    "console": true
+    "console": true,
+    "blacklist": ["password","credit_card"]
   }
 }
 ```
